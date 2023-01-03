@@ -19,3 +19,43 @@ GET         /account/sign-out                            controllers.auth.AuthCo
 GET         /account/signed-out                          controllers.auth.SignedOutController.onPageLoad
 
 GET         /unauthorised                                controllers.UnauthorisedController.onPageLoad
+
+GET        /question1                                    controllers.Question1Controller.onPageLoad(mode: Mode = NormalMode)
+POST       /question1                                    controllers.Question1Controller.onSubmit(mode: Mode = NormalMode)
+GET        /question1/change                             controllers.Question1Controller.onPageLoad(mode: Mode = CheckMode)
+POST       /question1/change                             controllers.Question1Controller.onSubmit(mode: Mode = CheckMode)
+
+GET        /question2                                    controllers.Question2Controller.onPageLoad(mode: Mode = NormalMode)
+POST       /question2                                    controllers.Question2Controller.onSubmit(mode: Mode = NormalMode)
+GET        /question2/change                             controllers.Question2Controller.onPageLoad(mode: Mode = CheckMode)
+POST       /question2/change                             controllers.Question2Controller.onSubmit(mode: Mode = CheckMode)
+
+GET        /question3/:page                             controllers.Question3Controller.onPageLoad(mode: Mode = NormalMode, page: Int)
+POST       /question3/:page                              controllers.Question3Controller.onSubmit(mode: Mode = NormalMode, page: Int)
+GET        /question3/:page/change                       controllers.Question3Controller.onPageLoad(mode: Mode = CheckMode, page: Int)
+POST       /question3/:page/change                       controllers.Question3Controller.onSubmit(mode: Mode = CheckMode, page: Int)
+
+GET        /question3/another/:page                      controllers.Question3AddAnotherController.onPageLoad(mode: Mode = NormalMode, page: Int)
+POST       /question3/another/:page                      controllers.Question3AddAnotherController.onSubmit(mode: Mode = NormalMode, page: Int)
+GET        /question3/another/:page/change               controllers.Question3AddAnotherController.onPageLoad(mode: Mode = CheckMode, page: Int)
+POST       /question3/another/:page/change               controllers.Question3AddAnotherController.onSubmit(mode: Mode = CheckMode, page: Int)
+
+GET        /question4a                                   controllers.Question4aController.onPageLoad(mode: Mode = NormalMode)
+POST       /question4a                                   controllers.Question4aController.onSubmit(mode: Mode = NormalMode)
+GET        /question4a/change                            controllers.Question4aController.onPageLoad(mode: Mode = CheckMode)
+POST       /question4a/change                            controllers.Question4aController.onSubmit(mode: Mode = CheckMode)
+
+GET        /question4b                                   controllers.Question4bController.onPageLoad(mode: Mode = NormalMode)
+POST       /question4b                                   controllers.Question4bController.onSubmit(mode: Mode = NormalMode)
+GET        /question4b/change                            controllers.Question4bController.onPageLoad(mode: Mode = CheckMode)
+POST       /question4b/change                            controllers.Question4bController.onSubmit(mode: Mode = CheckMode)
+
+GET        /question4c                                   controllers.Question4cController.onPageLoad(mode: Mode = NormalMode)
+POST       /question4c                                   controllers.Question4cController.onSubmit(mode: Mode = NormalMode)
+GET        /question4c/change                            controllers.Question4cController.onPageLoad(mode: Mode = CheckMode)
+POST       /question4c/change                            controllers.Question4cController.onSubmit(mode: Mode = CheckMode)
+
+GET        /question4d                                   controllers.Question4dController.onPageLoad(mode: Mode = NormalMode)
+POST       /question4d                                   controllers.Question4dController.onSubmit(mode: Mode = NormalMode)
+GET        /question4d/change                            controllers.Question4dController.onPageLoad(mode: Mode = CheckMode)
+POST       /question4d/change                            controllers.Question4dController.onSubmit(mode: Mode = CheckMode)

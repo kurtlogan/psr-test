@@ -55,3 +55,35 @@ signedOut.guidance = We did not save your answers.
 
 unauthorised.title = You can’t access this service with this account
 unauthorised.heading = You can’t access this service with this account
+
+datePage.title = DatePage
+datePage.heading = DatePage
+datePage.hint = For example, 12 11 2007
+datePage.checkYourAnswersLabel = DatePage
+datePage.error.required.all = Enter the datePage
+datePage.error.required.two = The datePage must include {0} and {1}
+datePage.error.required = The datePage must include {0}
+datePage.error.invalid = Enter a real DatePage
+datePage.change.hidden = DatePage
+
+yesNoPageName.title = yesNoPageName
+yesNoPageName.heading = yesNoPageName
+yesNoPageName.checkYourAnswersLabel = yesNoPageName
+yesNoPageName.error.required = Select yes if yesNoPageName
+yesNoPageName.change.hidden = YesNoPageName
+
+intPage.title = IntPage
+intPage.heading = IntPage
+intPage.checkYourAnswersLabel = IntPage
+intPage.error.nonNumeric = Enter your intPage using numbers
+intPage.error.required = Enter your intPage
+intPage.error.wholeNumber = Enter your intPage using whole numbers
+intPage.error.outOfRange = IntPage must be between {0} and {1}
+intPage.change.hidden = IntPage
+
+stringPage.title = stringPage
+stringPage.heading = stringPage
+stringPage.checkYourAnswersLabel = stringPage
+stringPage.error.required = Enter stringPage
+stringPage.error.length = StringPage must be 100 characters or less
+stringPage.change.hidden = StringPage
